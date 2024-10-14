@@ -84,6 +84,14 @@
             <artifactId>webjars-locator-core</artifactId>
             <version>0.48</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-activemq</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-client</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
